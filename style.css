@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(69,77,107);
+}
+#tudo {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    height: 80vh;
+    background-color: rgb(53,59,80);
+    border-radius: 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#sortear{
+    margin-top: 20px;
+}
+
+#resultado{
+    margin-top: 20px;
+}
+

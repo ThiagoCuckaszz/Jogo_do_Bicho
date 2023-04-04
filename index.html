@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+    <title>Jogo do Bicho</title>
+</head>
+<body>
+	<div id="tudo">
+		<h1 ondblclick="egg()">JOGO DO BICHO</h1>
+
+		<form id="form_animais">
+			<label for="animal">Escolha um animal:</label>
+			<select id="animal" name="animal" class="form-select">
+				<option value="">Selecione um animal</option>
+				<option value="01">Avestruz</option>
+				<option value="02">Águia</option>
+				<option value="03">Burro</option>
+				<option value="04">Borboleta</option>
+				<option value="05">Cachorro</option>
+				<option value="06">Cabra</option>
+				<option value="07">Carneiro</option>
+				<option value="08">Camelo</option>
+				<option value="09">Cobra</option>
+				<option value="10">Coelho</option>
+				<option value="11">Cavalo</option>
+				<option value="12">Elefante</option>
+				<option value="13">Galo</option>
+				<option value="14">Gato</option>
+				<option value="15">Jacaré</option>
+				<option value="16">Leão</option>
+				<option value="17">Macaco</option>
+				<option value="18">Porco</option>
+				<option value="19">Pavão</option>
+				<option value="20">Peru</option>
+				<option value="21">Touro</option>
+				<option value="22">Tigre</option>
+				<option value="23">Urso</option>
+				<option value="24">Veado</option>
+				<option value="25">Vaca</option>
+			</select>
+			<p></p>
+			<label>ou um número entre 00 e 99:</label>
+			<input type="number" id="numero" min="0" max="99"  class="form-control">
+			<p></p>
+
+			<label>Valor da aposta:</label>
+			<input type="number" id="valor" min="0" class="form-control">
+			<p></p>
+			<div class="d-grid gap-2 col-6 mx-auto">
+				<button type="submit" class="btn btn-danger btn-lg" id="sortear">Sortear</button>
+			</div>
+			
+		</form>
+
+		<div id="resultado"></div>
+		<p id="imagem"></p>
+		<p class="mt-5 mb-3 text-body-secondary" id="marca">&copy; Thiago Cuckasz</p>
+		
+	</div>
+    <script src="index.js"></script>
+</body>
+</html>
