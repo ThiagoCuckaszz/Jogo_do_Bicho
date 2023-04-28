@@ -20,4 +20,4 @@ Criar um jogo do bicho para um trabalho de faculdade
   - 1ª posição: ganho de ×50
   - Outra posição: ganho de ×7
 
-<h4 align="center"> 🛠️ EM CONSTRUÇÃO </h4>
+
